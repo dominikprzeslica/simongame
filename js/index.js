@@ -59,7 +59,7 @@ function isCorrect(activeButton) {
 
 // Ending game on wrong answer
 function theEnd() {
-    var audio = new Audio("../sounds/wrong.mp3");
+    var audio = new Audio("sounds/wrong.mp3");
     audio.play();
     $("h2").text("Press any key to try again.")
 
@@ -89,7 +89,7 @@ function buttonAnimation(activeButton) {
 
 // Button Sound Function
 function buttonSound(activeButton) {
-    var audio = new Audio("../sounds/" + activeButton + ".mp3");
+    var audio = new Audio("sounds/" + activeButton + ".mp3");
     audio.play();
 }
 
