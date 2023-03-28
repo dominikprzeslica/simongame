@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #205E61;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #3aa3a8;
+}
+
+.container-fluid {
+    padding: 0 20%;
+}
+
+/********************* Buttons *********************/
+button {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border-width: 10px;
+    margin: 0 2rem 3rem;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+/********************* Animations *********************/
+.pressed {
+    opacity: 0.5;
+    box-shadow: 5%;
+}
+
+.wrong {
+    background-color: red;
+}
